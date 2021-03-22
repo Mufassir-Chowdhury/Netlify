@@ -4,7 +4,7 @@
     <router-link to="/Blood-Donors">Blood Donors</router-link>
   </div>
 
-<form action="https://formspree.io/f/xyybrvod" method="POST">
+<form @submit.prevent="add" method="POST">
 <input type="hidden" name="_subject" value="New submission from 'Blood Donors, Sylhe">
 
   <div class="hidden sm:block" aria-hidden="true">
