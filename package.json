@@ -9,6 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@firebase/auth": "^0.16.4",
     "core-js": "^3.6.5",
     "firebase": "^8.3.1",
     "vue": "^3.0.0",
