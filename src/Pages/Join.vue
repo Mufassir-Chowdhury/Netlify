@@ -158,7 +158,7 @@ export default {
           form.area = 'Sylhet'
           form.mobile = ''
           form.bloodGroup = ''
-          form.donated = ''
+          form.donated = '2021-01-01'
           form.eligibility = true
           form.donationNumber = 0
           router.push('/Blood-Donors/')
