@@ -147,7 +147,7 @@ export default {
       })
 
       const router = useRouter();
-      const form = reactive({ donationNumber: 0, firstName: '', lastName: '', email: '', street: '', area: '', mobile: '', bloodGroup: '', eligibility: false, donated: '' })
+      const form = reactive({ donationNumber: 0, firstName: '', lastName: '', email: '', street: '', area: 'Sylhet', mobile: '', bloodGroup: '', eligibility: true, donated: '' })
       const onSubmit = async () => {
         
           await createUser({ ...form })
@@ -155,11 +155,11 @@ export default {
           form.lastName = ''
           form.email = ''
           form.street = ''
-          form.area = 'Sylhet'
+          form.area = ''
           form.mobile = ''
           form.bloodGroup = ''
-          form.donated = '2021-01-01'
-          form.eligibility = true
+          form.donated = ''
+          form.eligibility = false
           form.donationNumber = 0
           router.push('/Blood-Donors/')
         
