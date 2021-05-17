@@ -155,11 +155,11 @@ export default {
           form.lastName = ''
           form.email = ''
           form.street = ''
-          form.area = ''
+          form.area = 'Sylhet'
           form.mobile = ''
           form.bloodGroup = ''
           form.donated = ''
-          form.eligibility = false
+          form.eligibility = true
           form.donationNumber = 0
           router.push('/Blood-Donors/')
         
