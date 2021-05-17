@@ -147,7 +147,7 @@ export default {
       })
 
       const router = useRouter();
-      const form = reactive({ donationNumber: 0, firstName: '', lastName: '', email: '', street: '', area: 'Sylhet', mobile: '', bloodGroup: '', eligibility: true, donated: '' })
+      const form = reactive({ donationNumber: 0, firstName: '', lastName: '', email: '', street: '', area: 'Sylhet', mobile: '', bloodGroup: '', eligibility: true, donated: '2021-01-01' })
       const onSubmit = async () => {
         
           await createUser({ ...form })
