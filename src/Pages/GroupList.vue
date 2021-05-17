@@ -79,7 +79,7 @@
                       </div>
                     </div>
                     <div class="col-span-5 sm:col-span-4 px-4 py-4 truncate">
-                      <div class="text-sm text-gray-900">{{ user.area }}</div>
+                      <div class="text-sm text-gray-900">{{ user.street }}</div>
                     </div>
                     <div class="col-span-2 sm:col-span-4 px-1 py-4 whitespace-nowrap">
                       <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
